@@ -7,6 +7,6 @@ function validaCep($cep){
     $xml = @simplexml_load_file($url);
     return $xml;
 }
-//var_dump(get_endereco("13184556"));
+//var_dump(get_endereco(""));
     $endereco = (validaCep(@$_POST['cep']));
 ?>
